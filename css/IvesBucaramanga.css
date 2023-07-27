@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+
+img[src="images/IvesBucaramanga1.jpeg"]{
+	width: 100%;
+	border-radius: 20px;
+	border: 1px solid #000;
+}
+.contenedor-texto{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.titulo{
+	width: 130px;
+	float: right;
+}
+.container-principal{
+	margin: 160px 0 0 0;
+}
+
+.contenedor-texto div p{
+	font-size: 18px;
+	margin: 10px 20px 0 0;
+}
+.contenedor-informacion{
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+.imagen{
+	font-size: 18px;
+}
+.redes{
+	margin: 0 10px 0 0;
+	font-size: 30px;
+}
+.contenedor-social{
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	margin: auto 0 0 0;
+}
+.container h2{
+	text-align: center;
+}
+.contenedor-boton{
+	text-align: center;
+}
+.contenedor-card{
+	max-width: 400px;
+	width: 80%;
+	position: static;
+}
+.card-texto{
+	padding: 16px;
+}
+.card-logo{
+	width: 20px;
+	height: 20px;
+	margin: 0 0 0 5px;
+}
+.card-pie{
+	align-items: center;
+	display: flex;
+}
+.cofre-pastores{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.NuevoEnCasa{
+	width: 120px;
+}
+.contenedor-indicador{
+	display: flex;
+	justify-content: end;
+}
+.colocacion{
+	display: flex;
+	align-items: center;
+}
+.rowSiguenos{
+	margin: 0 0 0 0;
+}
+.lista-talentos{
+	margin: 0 0 0 20px;
+}
+.cofre-pastores img{
+	width: 80%;
+}
+.pastora-zabdy{
+	margin: 40px 0 0 0;
+}
+.talentos-pastora{
+	margin: 0 20px 0 0;
+}
+
+@media (max-width: 991px){
+	.contenedor-texto div p{
+		font-size: 15px;
+	}
+	.imagen{
+		font-size: 15px;
+	}
+	.redes{
+		font-size: 20px;
+	}
+	.informacion{
+		font: 15px;
+	}
+}
+
+@media (max-width: 575.98px) { 
+	.cofre-pastores{
+		display: flex;
+		flex-direction: column;
+	}
+	.talentos-pastora{
+		order: 2;
+	}
+	.pastora-zabdy img{
+		order: 1;
+	}
+}
+
+@media (max-width: 768px){
+	.contenedor-indicador{
+		margin: 40px 0 0 0;
+	}
+	.imagen-pastores{
+		max-width: 400px;
+		margin: auto;
+	}
+	.cofre-pastores img{
+		width: 300px;
+	}
+	.lista-talentos{
+		margin: 20px 0 0 0;
+	}
+}
+@media (max-width: 1400px){
+	.container-principal div p{
+		font-size: 20px;
+	}
+	.contenedor-informacion p{
+		font-size: 20px;
+	}
+	.imagen{
+		font-size: 20px;
+	}
+}
